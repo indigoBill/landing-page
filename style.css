@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    min-width: 1562px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 30px 350px 150px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.bottom, .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.bottom {
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 430px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 10px;
+    border-radius: 10px;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hold-image {
+    width: 620px;
+    height: 270px;
+    background-color: #999ba0;
+    text-align: center;
+    padding: 90px 50px;
+}
+
+a, .a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.main-txt {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button, .button-color {
+    background-color: #3382F6;
+    color: #F9FAF8;
+}
