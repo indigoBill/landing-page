@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
-    min-width: 1562px;
 }
 
 html {
@@ -15,11 +14,16 @@ html {
 
 .one {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
-    padding: 30px 350px 150px;
+
+}
+.one-one {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 150px;
     gap: 100px;
-    min-width: 1680px;
 }
 
 .bottom, .top {
@@ -30,6 +34,7 @@ html {
 
 .bottom {
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -67,17 +72,20 @@ a {
 }
 
 .hold-image {
-    width: 620px;
-    height: 270px;
+    width: auto;
+    height: auto;
     background-color: #999ba0;
     text-align: center;
     padding: 90px 50px;
-    flex-shrink: 0;
 }
 
-a, .a{
+a, .top-subtxt { 
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button a {
+    padding: 10px 30px;
 }
 
 .header {
@@ -94,12 +102,17 @@ a, .a{
 
 .two {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #F9FAF8;
-    padding: 50px 350px 150px;
+}
+
+.two-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
-    min-width: 1680px;
+    margin: 50px 30px 140px;
 }
 
 .info-txt {
@@ -110,7 +123,8 @@ a, .a{
 
 .img-contain {
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .img-txt {
@@ -136,13 +150,16 @@ a, .a{
 
 .three {
     display: flex;
-    flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 0px 405px;
-    gap: 30px;
-    min-width: 1680px;
-    height: 516px;
     justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.three-three {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 140px 0;
 }
 
 .quote {
@@ -150,32 +167,35 @@ a, .a{
     font-style: italic;
     color: #1F2937;
     align-self: center;
-    width: 870px;
+    max-width: 870px;
+    margin: 0 10px;
 }
 
 .spkr {
     align-self: flex-end;
     font-size: 22px;
     font-weight: bold;
-    margin-right: 120px;
+    margin-right: 50px;
 }
 
 .four {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 350px;
-    min-width: 1680px;
-    height: 400px;
 }
 
 .in-color {
     background-color: #3382F6;
     color: #E5E7EB;
-    width: 980px;
-    padding: 40px;
+    padding: 40px 80px;
+    margin: 100px;
     border: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .four button {
@@ -183,3 +203,18 @@ a, .a{
     border-color: #E5E7EB;
 }
 
+.call {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
